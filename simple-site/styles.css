@@ -302,7 +302,7 @@ h1 {
                 .social-media {
                 justify-content: space-evenly;
                 width: 55%;
-                margin-left: 20%;
+                margin-left: 22%;
                 }
             }
 
@@ -658,8 +658,8 @@ h1 {
             }
                 @media (max-width: 35rem) {
                     .text-contact {
-                        left: 43%;
-                        top: 13%;
+                        left: 49%;
+                        top: 9%;
                     }
                 }
 .forms {
