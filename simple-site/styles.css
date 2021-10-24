@@ -343,7 +343,7 @@ h1 {
     margin: 1rem 4rem 1rem 4rem;
     display: flex;
     flex-direction: row;
-    background-image: url(/simple-site/images/about-bg.jpg);
+    background-image: url(images/about-bg.jpg);
     background-size: cover;
     background-blend-mode: darken; /*not sure this even makes a difference*/
     padding: 1rem;
@@ -685,7 +685,7 @@ h1 {
     grid-template-columns: repeat(4, 1fr);
     gap: 1rem;
     justify-items: center;
-    background-image: url(/simple-site/images/stars.jpg);
+    background-image: url(images/stars.jpg);
     background-size: cover;
     padding: 2rem;
 }
