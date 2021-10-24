@@ -1,4 +1,0 @@
-
-let sidepanel = {
-    panel: 
-}
