@@ -658,6 +658,7 @@ h1 {
             }
                 @media (max-width: 35rem) {
                     .text-contact {
+                        width: 48%;
                         left: 50%;
                         top: 11%;
                     }
