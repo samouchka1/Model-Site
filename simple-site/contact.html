@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap" rel="stylesheet">
+
+    <title>Contact Us</title>
+</head>
+<body>
+    <h1>Contact Us</h1>
+    <div class="header">
+        <a class="nav-links" href="/simple-site/index.html">Home</a>
+        <a class="nav-links" href="/simple-site/services.html">Services</a>
+        <a class="nav-links" href="/simple-site/reviews.html">Reviews</a>
+        <a class="nav-links" href="/simple-site/about.html">About</a>
+        <a class="nav-links" href="#">Contact Us</a>
+    </div>
+
+    <div class="container-contact">
+
+        <div class="forms">
+
+            <form action="insert.php" method="post"> <!--php form-->
+                
+                <label for="name">Name:</label><br>
+                    <input type="text" id="name" name="name" placeholder="Enter name" required><br><!--without "name", input does not get sent-->
+                <label for="email">Email:</label><br>
+                    <input type="email" id="email" name="email" placeholder="Enter email" required><br><br>
+                <label for="comments">Message:</label><br>
+                    <textarea name="message" id="message" cols="40" rows="10" placeholder="Enter message"></textarea><br><br>
+
+                <input type="submit" name="submit" value="Submit"> <!--name is very important; for php to access-->
+
+            </form>
+
+            <div class="text-contact">
+                <p>We value your opinion!<br>
+                    Please feel free to send any comments, questions or concerns ourway.
+                    We look forward to assist you. Thank you.
+                </p>
+            </div>
+
+            <img src="/simple-site/images/contact.jpg" alt="contact us" id="image-contact">
+
+        </div>
+
+    </div>
+
+    <!-- <div class="footer">
+        <a class="nav-links" href="/simple-site/index.html">Home</a>
+        <a class="nav-links" href="/simple-site/services.html">Services</a>
+        <a class="nav-links" href="/simple-site/reviews.html">Reviews</a>
+        <a class="nav-links" href="/simple-site/about.html">About</a>
+        <a class="nav-links" href="#">Contact Us</a>
+    </div> -->
+
+    <div class="social-media">
+        <a class="fa fa-facebook" href="https://www.facebook.com/" alt="facebook" target="_blank"></a>
+        <a class="fa fa-twitter" href="https://twitter.com/" alt="twitter" target="_blank"></a>
+        <a class="fa fa-google" href="https://www.google.com/" alt="google" target="_blank"></a>
+        <a class="fa fa-youtube" href="https://www.youtube.com/" alt="youtube" target="_blank"></a>
+        <a class="fa fa-reddit" href="https://www.reddit.com/" alt="reddit" target="_blank"></a>
+    </div>
+
+    <p id="signature">&copy;<script>document.write(new Date().getFullYear());</script> samouchka</p> <!--signature-->
+
+    <script src="/simple-site/scripts3.js"></script>
+</body>
+</html>
