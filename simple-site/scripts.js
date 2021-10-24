@@ -62,38 +62,3 @@ closeClick2.addEventListener("click", closeNav2);
       closeClick3.style.display = "none";
       openClick3.style.display = "block";
     }
-
-
-//SERVICES
-// let serviceButton = document.getElementsByClassName("service1-button");
-// let i;
-
-// for (i = 0; i < serviceButton.length; i++) {
-//   serviceButton[i].addEventListener("click", toggler);
-  
-//   let toggler = () => {
-//     this.classList.toggle("service1-button");
-//     let panel = this.nextElementSibling;
-//     if (panel.style.display === "block") {
-//       panel.style.display = "none";
-//     } else {
-//       panel.style.display = "block";
-//     }
-//   };
-// }
-
-var acc = document.getElementsByClassName("accordion");
-var i;
-
-for (i = 0; i < acc.length; i++) {
-  acc[i].addEventListener("click", function() {
-    this.classList.toggle("active");
-    var panel = this.nextElementSibling;
-    if (panel.style.display === "block") {
-      panel.style.display = "none";
-    } else {
-      panel.style.display = "block";
-    }
-  });
-}
-
