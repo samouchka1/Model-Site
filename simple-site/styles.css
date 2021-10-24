@@ -210,7 +210,7 @@ h1 {
 }
     @media (max-width: 48rem) {
         .content {
-        height: 65vh;
+        height: 63vh;
         margin: 0;
         }
     }
