@@ -509,6 +509,7 @@ h1 {
     color: rgb(255, 255, 255);
     cursor: pointer;
     padding: 1rem;
+    margin-bottom: 1rem;
     width: 100%;
     border: none;
     text-align: left;
@@ -524,12 +525,28 @@ h1 {
   
 .section1 .service-panel, .section2 .service-panel, .section3 .service-panel {
     position: absolute;
-    top: 58%;
+    top: 55%;
     background-color: rgba(0, 0, 0, 0.45);
-    padding: .05rem;
+    /* padding: .05rem; */
     opacity: 0;
     transition: .8s;
 }
+
+    @media (max-width: 76rem) {
+        .section1 .service-panel, .section2 .service-panel, .section3 .service-panel {
+            top: 50%;
+        }
+    }
+        @media (max-width: 65rem) {
+            .section1 .service-panel, .section2 .service-panel, .section3 .service-panel {
+                top: 63%;
+            }
+        }
+            @media (max-width: 52rem) {
+                .section1 .service-panel, .section2 .service-panel, .section3 .service-panel {
+                    top: 57%;
+                }
+            }
 
 .section1, .section2, .section3 {
     position: relative;
