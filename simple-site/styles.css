@@ -168,7 +168,7 @@ h1 {
             @media (max-width: 48rem) {
                 .sidepanel-text {
                 width: 80%;
-                font-size: .9rem;
+                font-size: .95rem;
                 }
             }
 .sidepanel-text2 { /*flipped, other side*/
@@ -191,7 +191,7 @@ h1 {
                 @media (max-width: 48rem) {
                     .sidepanel-text2 {
                         width: 80%;
-                        font-size: .9rem;
+                        font-size: .95rem;
                     }
                 }
 
