@@ -152,6 +152,7 @@ h1 {
     width: 35%;
     margin-left: 2rem;
     font-size: 1.3rem;
+    font-family: 'Pontano Sans', sans-serif;
 }
     @media (max-width: 72rem) {
         .sidepanel-text {
@@ -175,6 +176,7 @@ h1 {
     width: 35%;
     margin-right: 2rem; /*this changes*/
     font-size: 1.3rem;
+    font-family: 'Pontano Sans', sans-serif;
 }
      @media (max-width: 72rem) {
         .sidepanel-text2 {
@@ -859,6 +861,11 @@ h1 {
 .container-reviews {
     margin: 1rem 2rem 1rem 2rem;
 }
+@media (max-width: 48rem) {
+    .container-reviews {
+        margin: 1rem 0 1rem 0;
+    }
+}
 
 
 .grid-reviews {
@@ -904,6 +911,12 @@ h1 {
     padding: 1rem;
     background: linear-gradient(131deg, rgb(100, 100, 100) 0%, rgb(65, 62, 92) 100%); 
 }
+    @media (max-width: 48rem) {
+        .reviews-items {
+            width: 100%;
+        }
+    }
+
     .reviews-items:hover {
         box-shadow: 3px 3px 20px rgba(255, 255, 255, 0.75);
         background: linear-gradient(131deg, rgb(109, 109, 109) 0%, rgb(73, 70, 104) 100%); 
