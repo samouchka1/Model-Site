@@ -168,7 +168,7 @@ h1 {
             @media (max-width: 48rem) {
                 .sidepanel-text {
                 width: 80%;
-                font-size: 1rem;
+                font-size: .9rem;
                 }
             }
 .sidepanel-text2 { /*flipped, other side*/
@@ -832,7 +832,7 @@ h1 {
                     }
                 }
 #thank-you {
-    color: rgb(93, 35, 228);
+    color: rgb(105, 18, 245);
     /* animation: thank-glow 2s ease-in-out infinite alternate; */
 }
     /* @keyframes thank-glow {
