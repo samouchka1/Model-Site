@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link href="https://fonts.googleapis.com/css2?family=Nunito&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;700&family=Inconsolata:wght@300&family=Merienda:wght@700&display=swap" rel="stylesheet">
 
     <title>Home</title>
 </head>
@@ -23,26 +24,34 @@
 
     <div class="container">
         <div class="content top">
-            <img class="images-home" src="images/tree.jpg" alt="tree">
-            <p class="text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Obcaecati, illum.</p>
-                <!--SIDE PANEL-->
-                <button id="openButton-top" class="openButtons"></button> <!--added class for test-->
+                <img class="images-home" src="images/tree.jpg" alt="tree">
+                <p class="text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Obcaecati, illum.</p>
+
+                <!--FIRST PANEL-->
+
+                <button id="openButton-top"></button>
                 <div id="sidepanel-top" class="sidepanels">
-                    <div class="sidepanel-content">
-                        <img src="images/peek-cat.jpg" class="sidepanel-images" alt="">
-                        <p class="sidepanel-text" id="panel-text1">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quibusdam rerum
-                                quidem esse maiores quae recusandae nam consequuntur, facere accusamus exercitationem.
-                                Sequi provident error sit architecto.</p>
-                    </div>
-                    <button id="closeButton-top" class="closeButtons"></button> <!--added class for test-->
+
+                        <div class="sidepanel-content">
+                            <img src="images/peek-cat.jpg" class="sidepanel-images" alt="">
+                            <p class="sidepanel-text" id="panel-text1">Lorem ipsum, dolor sit amet consectetur adipisicing
+                                 elit. Quibusdam rerum quidem esse maiores quae recusandae nam consequuntur, facere accusamus
+                                  exercitationem.Sequi provident error sit architecto.</p>
+                        </div>
+                        <button id="closeButton-top"></button>
+
                 </div>
+
         </div>
         <div class="content middle">
             <img class="images-home" src="images/desert.jpg" alt="desert">
             <p class="text2">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quo, tenetur!</p>
-                <!--SECOND PANEL TRIAL-->
+
+                <!--MIDDLE PANEL-->
+
                 <button id="openButton-middle"></button> 
                 <div id="sidepanel-middle" class="sidepanels">
+
                     <div class="sidepanel-content2"> <!--unique class for CSS-->
                         <img src="images/peek-alpaca.jpg" class="sidepanel-images" alt="">
                         <p class="sidepanel-text2" id="panel-text2">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quibusdam rerum
@@ -50,14 +59,18 @@
                                 Sequi provident error sit architecto.</p>
                     </div>
                     <button id="closeButton-middle"></button>
+
                 </div>
         </div>
         <div class="content bottom">
             <img class="images-home" src="images/peak.jpg" alt="peak">
             <p class="text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quo, tenetur!</p>
-                <!--THIRD SIDE PANEL-->
-                <button id="openButton-bottom"></button> 
+
+                <!--BOTTOM PANEL-->
+
+                <button id="openButton-bottom"></button>
                 <div id="sidepanel-bottom" class="sidepanels">
+
                     <div class="sidepanel-content">
                         <img src="images/peek-kangaroo.jpg" class="sidepanel-images" alt="">
                         <p class="sidepanel-text" id="panel-text3">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quibusdam rerum
@@ -65,6 +78,7 @@
                                 Sequi provident error sit architecto.</p>
                     </div>
                     <button id="closeButton-bottom"></button>
+
                 </div>
         </div>
     </div>
@@ -87,6 +101,6 @@
 
     <p id="signature">&copy;<script>document.write(new Date().getFullYear());</script> samouchka</p> <!--signature-->
     
-    <script src="scripts.js"></script><!--SCRIPT-->
+    <script src="scripts-index.js"></script><!--SCRIPT-->
 </body>
 </html>

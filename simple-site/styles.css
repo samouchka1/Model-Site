@@ -5,10 +5,28 @@ body {
 
 h1 {
     text-align: center;
-    color: rgba(95, 92, 153, 0.75);
-    margin: 3rem 0 3rem 0
+    color: black;
+    text-shadow: 3px 3px 10px rgb(255, 255, 255);
+    padding: 2rem 0 2rem 0;
+    margin: 0 0 1rem 0;
+    font-family: 'Merienda', cursive;
+    font-size: 4.5rem;
+    background-image: url(images/title-bg.jpg);
+    background-size: cover;
 }
+    @media (max-width: 65rem){
+        h1 {
+            font-size: 4rem;
+        }
+    }
+        @media (max-width: 48rem){
+            h1 {
+                font-size: 3rem;
+            }
+        }
 
+
+/*HEADER + FOOTER ===========================================================================*/
 .header, .footer {
     display: flex;
     flex-direction: row;
@@ -39,6 +57,7 @@ h1 {
 
     .nav-links:hover {
         color: rgb(255, 255, 255);
+        text-shadow: 2px 2px 5px white;
         background: radial-gradient(closest-side, #ffffff25, #ffffff18, #00000000);
         padding: .5rem 0 .5rem 0;
     }
@@ -48,6 +67,8 @@ h1 {
             font-size: 1rem;
         }
     }
+/*======================================================================================================*/
+
 
 .container {
     margin: 1rem 2rem 1rem 2rem;
@@ -69,22 +90,17 @@ h1 {
     align-items: center;
     margin: 2rem 2rem 2rem 5rem;
 }
-    /* @media (max-width: 72rem) {
+    @media (max-width: 65rem) {
         .sidepanel-content {
-            margin: 2rem 2rem 2rem 5rem;
+            flex-direction: column;
+            margin: 2rem 1rem 2rem 4rem;
         }
-    } */
-        @media (max-width: 65rem) {
+    }
+        @media (max-width: 48rem) {
             .sidepanel-content {
-                flex-direction: column;
-                margin: 2rem 1rem 2rem 4rem;
+                margin: 1rem 0 1rem 1.5rem;
             }
         }
-            @media (max-width: 48rem) {
-                .sidepanel-content {
-                    margin: 1rem 0 1rem 1.5rem;
-                }
-            }
 
 .sidepanel-content2 { /*flipped, other side*/
     display: flex;
@@ -92,22 +108,17 @@ h1 {
     align-items: center;
     margin: 2rem 5rem 2rem 2rem; /*this changes*/
 }
-        /* @media (max-width: 72rem) {
-            .sidepanel-content {
-                margin: 2rem 2rem 2rem 5rem;
+        @media (max-width: 65rem) {
+            .sidepanel-content2 {
+                flex-direction: column;
+                 margin: 2rem 4rem 2rem 1rem; /*this changes*/
             }
-        } */
-            @media (max-width: 65rem) {
+        }
+            @media (max-width: 48rem) {
                 .sidepanel-content2 {
-                    flex-direction: column;
-                    margin: 2rem 4rem 2rem 1rem; /*this changes*/
+                    margin: 1rem 1.5rem 1rem 0; /*this changes*/
                 }
             }
-                @media (max-width: 48rem) {
-                    .sidepanel-content2 {
-                        margin: 1rem 1.5rem 1rem 0; /*this changes*/
-                        }
-                }
 
 .sidepanel-images {
     height: 65vh;
@@ -215,8 +226,6 @@ h1 {
         background-color: rgba(255, 255, 255, 0);
         width: 1.5rem;
         height: 1.5rem;
-        /* border-radius: 25px;
-        border: none; */
         border: solid rgba(255, 255, 255, 0.60);
         border-width: 0 5px 5px 0;
         display: inline-block;
@@ -232,7 +241,6 @@ h1 {
             box-shadow:  3px 3px 1px rgba(250, 250, 250, 0.60);
             }
         }
-        /* #openButton-top:hover, #openButton-bottom:hover {background-color: rgba(255, 255, 255, 0.75);} */
 
         @media (max-width: 48rem) {
             #openButton-top, #openButton-bottom {
@@ -286,8 +294,6 @@ h1 {
         background-color: rgba(255, 255, 255, 0);
         width: 1.5rem;
         height: 1.5rem;
-        /* border-radius: 25px;
-        border: none; */
         border: solid rgba(255, 255, 255, 0.60);
         border-width: 0 5px 5px 0;
         display: inline-block;
@@ -303,9 +309,6 @@ h1 {
             box-shadow:  3px 3px 1px rgba(250, 250, 250, 0.60);
             }
         }
-    
-        /* #openButton-middle:hover {background-color: rgba(255, 255, 255, 0.75);} */
-
             @media (max-width: 48rem) {
                 #openButton-middle {
                     width: 1.2rem;
@@ -321,8 +324,6 @@ h1 {
         width: 1.5rem;
         height: 1.5rem;
         display: none;
-        /* border-radius: 25px;
-        border: none; */
         border: solid rgba(0, 0, 0, 0.75);
         border-width: 0 5px 5px 0;
         padding: 5px;
@@ -365,7 +366,7 @@ h1 {
     color: rgba(255, 255, 255, 0.40);
 }
 
-    @media (max-width: 67rem) { /*this needs work ================*/
+    @media (max-width: 67rem) {
         .text {
         width: 15rem;
         top: 35%;
@@ -398,12 +399,12 @@ h1 {
     position: absolute;
     width: 25rem;
     top: 40%;
-    right: 1%; /*this changes: side; from 3% to 2.5%*/
+    right: 1%; /*this changes*/
     font-size: 2rem;
     font-weight: 900;
     color: rgba(255, 255, 255, 0.40);
 }
-    @media (max-width: 67rem) { /*this needs work =================*/
+    @media (max-width: 67rem) {
         .text2 {
             width: 15rem;
             top: 35%;
@@ -416,7 +417,6 @@ h1 {
             .text2 {
                 width: 8rem;
                 top: 20%;
-                /* right: -3%; */
                 font-size: 1.3rem;
                 font-weight: 700;
                 }
@@ -561,17 +561,7 @@ h1 {
                     height: 35%;
                     left: 12%;
                 }
-            }        
-
-
-/* #image-about {
-    position: relative;
-    width: 33vw;
-    height: 50%;
-    right: 3%;
-    top: 5%;
-    float: right;
-} */
+            }
 
 .about-footer {
     display: none;
@@ -609,7 +599,6 @@ h1 {
     background: linear-gradient(180deg, rgb(0, 0, 0) 0%, rgb(33, 15, 58) 50%);
     padding: 1rem;
     border-radius: 5px;
-    /* border: 10px rgba(0, 0, 0, 0.219); */
 }
 
     @media (max-width: 65rem) {
@@ -655,7 +644,7 @@ h1 {
         }
 
 
-/*SERVICES JS TRIAL  ======================================*/       
+/*SERVICES JS  ======================================*/       
 
 .service-button {
     background-color: rgb(0, 0, 0);
@@ -680,7 +669,6 @@ h1 {
     position: absolute;
     top: 55%;
     background-color: rgba(0, 0, 0, 0.45);
-    /* padding: .05rem; */
     opacity: 0;
     transition: .8s;
 }
@@ -706,7 +694,7 @@ h1 {
     position: relative;
 }
 
-/*============================================================*/
+/*==================================================*/
 
 
 
@@ -728,8 +716,6 @@ h1 {
 
 .container-contact {
     color: white;
-    /* background-image: url(); */
-    /* background-size: cover; */
     background: linear-gradient(332deg, rgba(0, 0, 0, 0.281) 0%, rgba(55, 28, 110, 0.63) 100%);
     padding: 1rem 0 1rem 0; 
 }
@@ -836,16 +822,10 @@ h1 {
                 }
 #thank-you {
     color: rgb(105, 18, 245);
-    /* animation: thank-glow 2s ease-in-out infinite alternate; */
 }
-    /* @keyframes thank-glow {
-        from {
-        text-shadow:  .5px .5px .5px rgba(67, 21, 173, 0.35);
-        }
-        to {
-        text-shadow:  1.2px 1.2px 1.2px rgba(80, 22, 214, 0.6);
-        }
-    } */
+    #thank-you:hover {
+        text-shadow: 1px 1px 5px rgb(131, 106, 172);
+    }
 
 .forms {
     margin-top: 3rem;
@@ -908,7 +888,6 @@ h1 {
     border: ridge rgba(247, 247, 247, 0.562) 3px;
     border-radius: 10px;
     text-align: center;
-    /* margin: .5rem; */
     padding: 1rem;
     background: linear-gradient(131deg, rgb(100, 100, 100) 0%, rgb(65, 62, 92) 100%); 
 }
@@ -927,8 +906,6 @@ h1 {
     margin: 1rem;
     font-family: 'Pontano Sans', sans-serif;
     color: white;
-    /* width: 100%;
-    height: 50%; */
 }
 
 .reviews-footer {
