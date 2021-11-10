@@ -123,7 +123,6 @@ h1 {
 .sidepanel-images {
     height: 65vh;
     width: 65%;
-    border-radius: 10px;
     padding-top: 5rem;
 }
     @media (max-width: 72rem) {
