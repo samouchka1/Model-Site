@@ -258,13 +258,10 @@ body {
         position: absolute;
         left: 3%;
         top: 48%;
-        /* background-color: rgba(70, 70, 70, 0.60); */
         background-color: rgba(70, 70, 70, 0);
         width: 1.5rem;
         height: 1.5rem;
         display: none;
-        /* border-radius: 25px;
-        border: none; */
         border: solid rgba(0, 0, 0, 0.75);
         border-width: 0 5px 5px 0;
         padding: 5px;
