@@ -720,7 +720,8 @@ body {
 .container-contact {
     color: white;
     background: linear-gradient(332deg, rgba(0, 0, 0, 0.281) 0%, rgba(55, 28, 110, 0.63) 100%);
-    padding: 1rem 0 1rem 0; 
+    padding: 1rem 0 1rem 0;
+    margin: 1rem 0 1rem 0; 
 }
     @media (max-width: 48rem) {
         .container-contact {
@@ -732,7 +733,7 @@ body {
 .forms {
     display: flex;
     flex-direction: row;
-    gap: 1rem;
+    gap: 2rem;
     position: relative;
     margin: 2rem 5rem 2rem 5rem;
     left: 16%;
@@ -771,7 +772,30 @@ body {
             }
         }
 
-.text-contact {
+        .text-contact {
+            position: relative;
+            text-align: center;
+            left: 20%;
+            width: 55%;
+            color: white;
+            font-family: 'Nunito', sans-serif;
+            background-color: rgba(131, 131, 131, 0.185);
+            font-size: 1.2rem;
+            font-family: 'Josefin Sans', sans-serif;
+            font-weight: 500;
+            padding: 1rem 2rem 1rem 2rem;
+            transition: .2s;
+        }
+        
+            @media (max-width: 48rem) {
+                .text-contact {
+                    padding: 1rem 4rem 1rem 4rem;
+                    left: 6%;
+                }
+            }
+
+
+/* .text-contact {
     position: absolute;
     left: 20%;
     top: -7%;
@@ -822,13 +846,26 @@ body {
                         left: 53%;
                         top: 13%;
                     }
-                }
-#thank-you {
+                } */
+/* #thank-you {
     color: rgb(105, 18, 245);
 }
     #thank-you:hover {
         text-shadow: 1px 1px 5px rgb(131, 106, 172);
+    } */
+
+    #thank-you {
+        font-weight: 500;
+        opacity: 0;
+        transition: 1s;
     }
+    
+        .text-contact:hover #thank-you {
+            opacity: 1;
+            color: rgb(255, 255, 255);
+            text-shadow: 1px 1px 3px white;
+            background: radial-gradient(closest-side, #ffffff25, #ffffff18, #00000000);
+        }
 
 .forms {
     margin-top: 3rem;
