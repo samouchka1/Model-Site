@@ -24,6 +24,14 @@
 
     <div class="container-contact">
 
+        <div class="text-contact">
+            <p>We value your opinion!<br>
+                    Please feel free to send any comments, questions or concerns ourway.
+                    We look forward to assist you. <br><br>
+                    <span id="thank-you">Thank you.</span>
+            </p>
+        </div>
+
         <div class="forms">
 
             <form action="insert.php" method="post"> <!--php form-->
@@ -33,18 +41,11 @@
                 <label for="email">Email:</label><br>
                     <input type="email" id="email" name="email" placeholder="Enter email" required><br><br>
                 <label for="comments">Message:</label><br>
-                    <textarea name="message" id="message" cols="40" rows="10" placeholder="Enter message"></textarea><br><br>
+                    <textarea name="message" id="message" cols="40" rows="10" placeholder="Enter message" required></textarea><br><br>
 
                 <input type="submit" name="submit" value="Submit"> <!--name is very important; for php to access-->
 
             </form>
-
-            <div class="text-contact">
-                <p>We value your opinion!<br>
-                    Please feel free to send any comments, questions or concerns ourway.
-                    We look forward to assist you. <span id="thank-you">Thank you.</span>
-                </p>
-            </div>
 
             <img src="images/contact.jpg" alt="contact us" id="image-contact">
 
