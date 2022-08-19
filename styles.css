@@ -445,6 +445,7 @@ body {
         margin-left: 39%;
         margin-bottom: 1rem;
         width: 21%;
+        font-size: 0;
     }
         @media (max-width: 70rem) {
             .social-media {
