@@ -474,17 +474,17 @@ body {
             opacity: 1;
         }
 
-    .fa-facebook {background:#3b5998; font-size: 0;}
+    .fa-facebook {background:#3b5998; text-decoration: none;}
         .fa-facebook:hover {background: #3b5998;}
-    .fa-twitter {background: #55ACEE; font-size: 0;}
+    .fa-twitter {background: #55ACEE; text-decoration: none;}
         .fa-twitter:hover {background: #55ACEE;}
-    .fa-google {background: #dd4b39; font-size: 0;}
+    .fa-google {background: #dd4b39; text-decoration: none;}
         .fa-google:hover {background: #dd4b39;}
-    .fa-linkedin {background: #007bb5; font-size: 0;}
+    .fa-linkedin {background: #007bb5; text-decoration: none;}
         .fa-link:hover {background: #007bb5;}
-    .fa-youtube {background: #bb0000;font-size: 0;}
+    .fa-youtube {background: #bb0000; text-decoration: none;}
         .fa-youtube:hover { background: #bb0000;}
-    .fa-reddit {background: #ff5700; font-size: 0;}
+    .fa-reddit {background: #ff5700; text-decoration: none;}
         .fa-reddit:hover {background: #ff5700;}
 
 #signature {
