@@ -445,7 +445,6 @@ body {
         margin-left: 39%;
         margin-bottom: 1rem;
         width: 21%;
-        font-size: 0;
     }
         @media (max-width: 70rem) {
             .social-media {
@@ -475,17 +474,17 @@ body {
             opacity: 1;
         }
 
-    .fa-facebook {background:#3b5998;}
+    .fa-facebook {background:#3b5998; font-size: 0;}
         .fa-facebook:hover {background: #3b5998;}
-    .fa-twitter {background: #55ACEE;}
+    .fa-twitter {background: #55ACEE; font-size: 0;}
         .fa-twitter:hover {background: #55ACEE;}
-    .fa-google {background: #dd4b39;}
+    .fa-google {background: #dd4b39; font-size: 0;}
         .fa-google:hover {background: #dd4b39;}
-    .fa-linkedin {background: #007bb5;}
+    .fa-linkedin {background: #007bb5; font-size: 0;}
         .fa-link:hover {background: #007bb5;}
-    .fa-youtube {background: #bb0000;}
+    .fa-youtube {background: #bb0000;font-size: 0;}
         .fa-youtube:hover { background: #bb0000;}
-    .fa-reddit {background: #ff5700;}
+    .fa-reddit {background: #ff5700; font-size: 0;}
         .fa-reddit:hover {background: #ff5700;}
 
 #signature {
