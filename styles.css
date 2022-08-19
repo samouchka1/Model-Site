@@ -469,6 +469,7 @@ body {
         width: 1rem;
         color:white;
         opacity: .50;
+        text-decoration: none;
     }
         .fa:hover {
             opacity: 1;
